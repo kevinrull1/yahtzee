@@ -1,3 +1,7 @@
+
+
+
+
 let diceData = [
     {
         value: undefined,
@@ -20,6 +24,11 @@ let diceData = [
         status: 'active'
     },
 ]
+
+document.getElementById("counter").addEventListener("click", function){
+    document.getElementById("roll")
+}
+
 
 const diceDivs = document.querySelectorAll('.dice');
 diceDivs.forEach((dice) => {
